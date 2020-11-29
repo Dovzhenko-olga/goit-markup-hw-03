@@ -12,85 +12,96 @@
 </head>
 <body>
     <!--Навигация-->
-    <header>       
-        <nav>
+    <header> 
+        <div class="conteiner main-nav">      
+        <nav class="page-nave">
             <a class="logo" href="./index.html">Web<span class="accent">Studio</span></a>
             <ul class="site-nav list">
-                <li><a class="link current" href="./index.html">Студия</a></li>
-                <li><a class="link" href="./portfolio.html">Портфолио</a></li>
-                <li><a class="link" href="">Контакты</a></li>
+                <li class="item"><a class="link current" href="./index.html">Студия</a></li>
+                <li class="item"><a class="link" href="./portfolio.html">Портфолио</a></li>
+                <li class="item"><a class="link" href="">Контакты</a></li>
             </ul>
         </nav>        
             <address>
-                <ul>
-                    <li><a class="mail" href="mailto:info@example.com">info@example.com</a></li>
-                    <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>            
+                <ul class="auth-nav">
+                    <li class="item"><a class="mail" href="mailto:info@example.com">info@example.com</a></li>
+                    <li class="item"><a href="tel:+380961111111">+38 096 111 11 11</a></li>            
                 </ul> 
-            </address>               
+            </address>
+        </div>               
     </header>
     <main>
         <!--Hero-->
         <section class="hero">
+           <div class="conteiner">
             <h1 class="hero-title">Эффективные решения <br/> 
-            для вашего бизнеса</h1>
-            <button>Заказать услугу</button>
+                для вашего бизнеса</h1>
+                <button>Заказать услугу</button>
+           </div>
         </section>
         <!--Features-->
         <section class="section">
-            <h2>Особенности</h2>
+           <div class="conteiner">
+            <h2 class="hidden">Особенности</h2>
             <ul class="features-list">
-                <li>
+                <li class="item">
                     <h3 class="title">Внимание к деталям</h3>
                     <p>Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
                 </li>
-                <li>
+                <li class="item">
                     <h3 class="title">Пунктуальность</h3>
                     <p>Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
                 </li>
-                <li>
+                <li class="item">
                     <h3 class="title">Планирование</h3>
                     <p>Равным образом консультация с широким активом в значительной степени обуславливает.</p>
                 </li>
-                <li>
+                <li class="item">
                     <h3 class="title">Современные технологии</h3>
                     <p>Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
                 </li>
             </ul>
+           </div>
         </section>
         <!--Works-->
         <section class="section">
+           <div class="conteiner">
             <h2 class="section-title">Чем мы занимаемся</h2>
-            <ul>
-                <li><img src="images/box1.jpg" alt="work1" width="370"></li>
-                <li><img src="images/box2.jpg" alt="work2" width="370"></li>
-                <li><img src="images/box3.jpg" alt="work3" width="370"></li>
+            <ul class="works">
+                <li class="item"><img src="images/box1.jpg" alt="work1" width="370"></li>
+                <li class="item"><img src="images/box2.jpg" alt="work2" width="370"></li>
+                <li class="item"><img src="images/box3.jpg" alt="work3" width="370"></li>
             </ul>
+           </div>
         </section>
         <!--Team-->
         <section class="section team">
-            <h2 class="section-title">Наша команда</h2>
-            <ul>
-                <li><img src="images/team1.jpg" alt="Игорь Демьяненко" width="270">                                 
+            <div class="conteiner">
+                <h2 class="section-title">Наша команда</h2>
+            <ul class="workers">
+                <li class="item"><img src="images/team1.jpg" alt="Игорь Демьяненко" width="270">                                 
                 <h3 class="names">Игорь Демьяненко</h3>
                     <p class="proffeshion">Product Designer</p>
                 </li>
-                <li><img src="images/team2.jpg" alt="team2" width="270">
+                <li class="item"><img src="images/team2.jpg" alt="team2" width="270">
                 <h3 class="names">Ольга Репина</h3>
                     <p class="proffeshion">Frontend Developer</p>
                 </li>
-                <li><img src="images/team3.jpg" alt="team3" width="270">
+                <li class="item"><img src="images/team3.jpg" alt="team3" width="270">
                 <h3 class="names">Николай Тарасов</h3>
                     <p class="proffeshion">Marketing</p>
                 </li>
-                <li><img src="images/team4.jpg" alt="team4" width="270">
+                <li class="item"><img src="images/team4.jpg" alt="team4" width="270">
                 <h3 class="names">Михаил Ермаков</h3>
                     <p class="proffeshion">UI Designer</p>
                 </li>
             </ul>
+            </div>
         </section>
     </main>
-    <footer>
-        <a class="logo" href="index.html">Web<span class="accent-foot">Studio</span></a>
+    <footer class="footer">
+        <div class="conteiner">
+            <a class="logo" href="index.html">Web<span class="accent-foot">Studio</span></a>
         <!--Contacts-->
         <address>        
             <ul>
@@ -99,6 +110,7 @@
                 <li><a class="contacts" href="tel:+380961111111">+38 096 111 11 11</a></li>            
             </ul>
         </address>
+        </div>
     </footer>    
     
 </body>
