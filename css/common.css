@@ -39,7 +39,7 @@ body {
 .main-nav {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    /* justify-content: space-between; */
 }
 .page-nave {
     display: flex;
@@ -89,7 +89,7 @@ body {
 .auth-nav .item + .item {
     margin-left: 50px;
 }
-address a {
+.auth a {
     color: var(--primary-text-color);
     font-style: normal;
     font-weight: 500;
@@ -99,6 +99,9 @@ address a {
 }
 .mail:hover, .mail:focus {
     color:var(--hover-color);
+}
+.auth {
+    margin-left: auto;
 }
 
 /* footer */
