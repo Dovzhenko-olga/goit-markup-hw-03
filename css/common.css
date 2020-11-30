@@ -26,6 +26,17 @@ body {
     letter-spacing: 0.03em;
 }
 
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
+
 .conteiner {
     margin-left: auto;
     margin-right: auto;
@@ -38,8 +49,7 @@ body {
 
 .main-nav {
     display: flex;
-    align-items: center;
-    /* justify-content: space-between; */
+    align-items: center;    
 }
 .page-nave {
     display: flex;
@@ -110,6 +120,10 @@ body {
     padding-top: 60px;
     padding-bottom: 60px;
     background-color: var(--footer-back-color);
+}
+.footer .logo {
+    margin-top: 0;
+    margin-bottom: 20px;
 }
 .accent-foot, .map {
     color: var(--primary-white-color);    

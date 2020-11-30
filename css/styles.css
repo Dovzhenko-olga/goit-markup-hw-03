@@ -3,8 +3,7 @@
     padding-top: 200px;
     padding-bottom: 200px;
     background-color: var(--footer-back-color);
-    text-align: center;
-    margin-bottom: 94px;
+    text-align: center;    
 }
 .hero-title {
     margin-top: 0;
@@ -35,10 +34,7 @@
 }
 
 /* main */
-.hidden {
-    margin-top: 0;
-    margin-bottom: 0;
-}
+
 /*  features */
 .features-list .title {
     margin-top: 0;
@@ -49,6 +45,9 @@
     letter-spacing: 0.03em;
     text-transform: uppercase;
     font-size: 14px;
+}
+.works img {
+    display: block;
 }
 .features-list {
     display: flex;
@@ -67,9 +66,12 @@ li p {
     margin-top: 0;
     margin-bottom: 0;
 }
+.features {
+    padding-top: 94px;
+}
 
 .section:not(:last-child) {
-    margin-bottom: 94px;
+    padding-bottom: 94px;
 }
 
 .section-title {
