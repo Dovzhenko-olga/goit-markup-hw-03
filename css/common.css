@@ -56,8 +56,6 @@ body {
     align-items: center;
 }
 .logo {
-    margin-top: 24px;
-    margin-bottom: 25px;
     color: var(--hover-color);
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
@@ -113,6 +111,9 @@ body {
 .auth {
     margin-left: auto;
 }
+.header {
+    border-bottom: 1px solid #ECECEC;
+}
 
 /* footer */
 
@@ -122,6 +123,7 @@ body {
     background-color: var(--footer-back-color);
 }
 .footer .logo {
+    display: block;
     margin-top: 0;
     margin-bottom: 20px;
 }
@@ -140,4 +142,7 @@ body {
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
+}
+.contact-us {
+    margin-top: 9px;
 }
