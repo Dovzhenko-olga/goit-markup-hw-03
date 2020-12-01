@@ -141,8 +141,8 @@ border-radius: 0px 0px 4px 4px;
 /* portfolio */
 
 .portfolio {
-    margin-top: 94px;
-    margin-bottom: 94px;
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
 
     /*  filter */
